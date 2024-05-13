@@ -1,0 +1,109 @@
+/* Custom CSS Styles */
+/* Navbar */
+
+.Navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.Navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 1.2rem;
+}
+.Navbar a.active {
+    font-weight: bold;
+}
+/* Home Section */
+#Home {
+    position: relative;
+}
+#Home video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.Video_Text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.Video_Text h1 {
+    font-size: 3rem;
+}
+.Video_Text p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+/* About Section */
+#About {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+.Column_2,
+.Column_1 {
+    padding: 0 20px;
+}
+.Column_2 img {
+    max-width: 100%;
+    height: auto;
+}
+.Column_1 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.Column_1 p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+/* GitHub Section */
+#GitHub {
+    background-color: #eaeaea;
+    padding: 50px 0;
+}
+.Column_1 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.Column_1 p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+/* Contact Section */
+#Contact {
+    background-color: #fff;
+    padding: 50px 0;
+}
+.Contact form {
+    display: flex;
+    flex-direction: column;
+}
+.Contact label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.Contact input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+.Contact input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
